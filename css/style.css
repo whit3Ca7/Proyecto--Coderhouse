@@ -1,0 +1,114 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&display=swap');
+
+
+:root {
+    /* Palette */
+    
+    --primary: #000000;
+    --secondary: #131F15;
+    --light: #fdfdfd;
+
+    /* font sizes*/
+
+    --text-xxl: 4.8em;
+    --text-xl: 3.2em;
+    --text-lg: 2.0em;
+    --text-md: 1.6em;
+    --text-sm: 1.4em;
+
+    /* Spacings */
+
+    --sp-xxl: 12rem;
+    --sp-xl: 8rem;
+    --sp-lg: 5rem;
+    --sp-md: 3.2rem;
+    --sp-sm: 1.6rem;
+    --sp-xs: 0.8rem;
+}
+
+/*Normalize*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 62,5px;
+}
+
+body {
+    font-size: var(--text-sm);
+    font-family: 'Noto Sans', sans-serif;
+    color: var(--primary)
+}
+
+ul {
+    list-style-type: none;
+    font-size: 25px;
+}
+
+
+a {
+    font-size: var(--text-md);
+    text-decoration: none;
+}
+
+/* HEADER */
+header {
+    background-color: var(--primary)
+}
+
+.container {
+    color:rgb(255, 255, 255)  
+}
+
+
+.navbar .menu .menu__link {
+    color:var(--light)
+}
+
+.navbar .menu {
+    display: inline-block;
+}
+
+.navbar .menu .menu__item {
+    display: inline-block;
+}
+
+.guitarras {
+    background-color: var(--primary)
+}
+
+.accesorios {
+    background-color: var(--primary)
+}
+
+.Accesorios_Black_Fondo {
+    background-color: var(--primary);
+}
+
+.ofertas_black {
+    background-color: var(--primary);
+}
+
+.ofertas-titulo-red {
+    background: var(--primary);
+    color: red;
+}
+
+.banner-inicio {
+    background-color: #000000;
+}
+
+.bajos {
+    background: var(--primary);
+}
+
+
+
+
+
